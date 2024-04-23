@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 import static javafx.scene.input.KeyEvent.KEY_PRESSED;
 import static javafx.scene.input.MouseEvent.MOUSE_CLICKED;
 
-public class JavaFXApp extends Application {
+public class JavaFXApp extends Application implements IComputation {
 
     Pane rootPane;
     TextField txtResult;
